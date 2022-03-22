@@ -20,4 +20,3 @@ class Answer(models.Model):
 
     def __str__(self):
         return f"question: {self.question.text}, answer: {self.text}, correct: {self.correct}"
-

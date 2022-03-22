@@ -98,7 +98,9 @@ const sendData = () => {
 
     $.ajax({
         type: 'POST',
+
         url: `${url}save/`,
+
         data: data,
         success: function(response){
             const results = response.results
